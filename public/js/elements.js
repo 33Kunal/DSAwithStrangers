@@ -5,6 +5,8 @@ export const getIncomingCallDialog = (
 ) => {
   const dialog = document.createElement("div");
   dialog.classList.add("dialog_wrapper");
+
+  
   const dialogContent = document.createElement("div");
   dialogContent.classList.add("dialog_content");
   dialog.appendChild(dialogContent);
